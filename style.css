@@ -28,11 +28,11 @@ body {
 }
 
 .red {
-    color: #FF5049 !important;
+    color: #ff5049 !important;
 }
 
 .red-focus:focus {
-    border: 1px solid #FF5049 !important;
+    border: 1px solid #ff5049 !important;
 }
 
 /**********************************************
@@ -41,7 +41,8 @@ body {
 
 .top {
     height: 40vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url(back.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -79,11 +80,11 @@ body {
 
 .budget__income {
     margin-bottom: 10px;
-    background-color: #28B9B5;
+    background-color: #28b9b5;
 }
 
 .budget__expenses {
-    background-color: #FF5049;
+    background-color: #ff5049;
 }
 
 .budget__income--text,
@@ -114,7 +115,6 @@ body {
     text-align: center;
     border-radius: 3px;
 }
-
 
 /**********************************************
 *** BOTTOM PART
@@ -169,7 +169,7 @@ body {
     font-size: 35px;
     background: none;
     border: none;
-    color: #28B9B5;
+    color: #28b9b5;
     cursor: pointer;
     display: inline-block;
     vertical-align: middle;
@@ -185,7 +185,7 @@ body {
 .add__description:focus,
 .add__value:focus {
     outline: none;
-    border: 1px solid #28B9B5;
+    border: 1px solid #28b9b5;
 }
 
 .add__btn:focus {
@@ -217,11 +217,11 @@ h2 {
 }
 
 .icome__title {
-    color: #28B9B5;
+    color: #28b9b5;
 }
 
 .expenses__title {
-    color: #FF5049;
+    color: #ff5049;
 }
 
 .item {
@@ -251,7 +251,7 @@ h2 {
     margin-left: 20px;
     transition: transform 0.3s;
     font-size: 11px;
-    background-color: #FFDAD9;
+    background-color: #ffdad9;
     padding: 3px;
     border-radius: 3px;
     width: 32px;
@@ -260,15 +260,14 @@ h2 {
 
 .income .item__value,
 .income .item__delete--btn {
-    color: #28B9B5;
+    color: #28b9b5;
 }
 
 .expenses .item__value,
 .expenses .item__percentage,
 .expenses .item__delete--btn {
-    color: #FF5049;
+    color: #ff5049;
 }
-
 
 .item__delete {
     float: left;
@@ -305,12 +304,10 @@ h2 {
     transform: translateX(-20px);
 }
 
-
 .unpaid {
-    background-color: #FFDAD9 !important;
+    background-color: #ffdad9 !important;
     cursor: pointer;
-    color: #FF5049;
-
+    color: #ff5049;
 }
 
 .unpaid .item__percentage {
